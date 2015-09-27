@@ -12,10 +12,9 @@
 vignettes/*.html
 vignettes/*.pdf
 
-## Put comments here that give an overall description of what you
-## functions do
+## This function creates a special "matrix" and computes your inverse.
 
-## Write a short comment describing this function
+## This function creates a special "matrix" object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
         m<-NULL
@@ -33,7 +32,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function computes the inverse of the special "matrix"
 
 cacheSolve <- function(x, ...) {
         m<-x$getmatrix()
